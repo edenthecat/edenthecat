@@ -14,20 +14,22 @@
  *= require_self
  */
 
- h1 {
-     font-family: 'Montaga', serif;
- }
-
- body {
+body {
     font-family: 'Montaga', serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    font-size: 22px;
 }
 
+main {
+    width: 95%;
+}
+
+article {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 3em;
+}
 p {
-    max-width: 400px;
+    font-size: 1em;
 }
